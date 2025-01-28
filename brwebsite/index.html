@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>burger website </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo"><i class='fa-solid fa-burger' style='color:#7a2415'></i>Burger</a>
+
+  <!--  <div id="menu-bar" class="fas fa-bars"></div>-->
+
+    <nav class="navbar">
+        <a href="#home">HOME</a>
+        <a href="#order">ORDER</a>
+        <a href="#cart" class="cart-add">CART <span>0</span></a>
+        
+    </nav>
+
+</header>
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Burgerlicious !</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente aspernatur modi ducimus eligendi amet iusto debitis asperiores laudantium voluptas, quas dolores at repellat libero possimus velit tempore aperiam minima vitae, sint delectus soluta. Itaque tempore dolores a possimus. Nam perspiciatis corrupti, voluptatem adipisci ab alias inventore id possimus laudantium est.</p>
+        <!--<a href="#" class="btn">order now</a>-->
+    </div>
+
+    <div class="image">
+        <img src="./IMG_0132.JPG" alt="">
+    </div>
+
+</section>
+
+<!-- home section ends -->
+<!--order section-->
+<section class="order" id="order">
+    <center><h1 class="heading"> <span>Order</span> your food </h1></center>
+    <div class="box-container">
+        <div class="box">
+            <span class="price"> $5  </span>
+            <img src="./ham.jpg" alt="">
+            <h3>Hamburger</h3>
+            
+            
+            <!--<a href="#" class="btn">-->
+                <button class="add-cart">Add to cart</button>
+        </div>
+        <div class="box">
+            <span class="price"> $4 </span>
+            <img src=".\veg.jpg" alt="">
+            <h3>Veggie Burger</h3>
+           
+            <button class="add-cart">Add to cart</button>
+            
+        </div>
+        
+       
+        <div class="box">
+            <span class="price"> $3 </span>
+            <img src=".\class.jpg" alt="">
+            <h3>Classic Burger</h3>
+            
+            <button class="add-cart">Add to cart</button>
+            
+        </div>
+        <div class="box">
+            <span class="price"> $10 </span>
+            <img src=".\dop.jpg" alt="">
+            <h3>Double Patty Burger</h3>
+            
+            <button class="add-cart">Add to cart</button>
+            
+        </div>
+        <div class="box">
+            <span class="price"> $3 </span>
+            <img src=".\che.jpg" alt="">
+            <h3>Cheese Burger</h3>
+          
+            <button class="add-cart">Add to cart</button>
+            
+        </div>
+        <div class="box">
+            <span class="price"> $6</span>
+            <img src=".\doc.jpg" alt="">
+            <h3>Double cheeseburger </h3>
+           
+            <button class="add-cart">Add to cart</button>
+            
+        </div> 
+
+    </div>
+
+</section>
+<!--order section ends-->
+<!--cart start-->
+
+<section class="cart" id="cart">
+    <center><h1 class="heading"> <span>Cart</span> </h1></center>
+    <div class="products-container">
+        <div class="product-header">
+            <h5 class="product-title">BURGER</h5>
+            <h5 class="price">PRICE</h5>
+            <h5 class="quantity">QUANTITY</h5>
+            <h5 class="total">TOTAL</h5>
+        </div>
+        <div class="product">
+
+        </div>
+    </div>
+   
+</section>
+
+<!--cart ends-->
+
+<script src=".\main.js"></script>
+
+<!--<section class="footer">
+
+    <div class="share">
+        <a href="#" class="btn">facebook</a>
+        <a href="#" class="btn">twitter</a>
+        <a href="#" class="btn">instagram</a>
+        <a href="#" class="btn">pinterest</a>
+        <a href="#" class="btn">linkedin</a>
+    </div>
+
+    <h1 class="credit"> created by <span> web designer </span> | all rights reserved! </h1>
+
+</section>-->
+
+<footer>
+    <div class="share">
+        <a href="#" class="btn" style="color:#f5deb3">home</a>
+        <a href="#" class="btn" style="color:#f5deb3">about </a>
+        <a href="#" class="btn" style="color:#f5deb3">contact </a>
+        <a href="#" class="btn" style="color:#f5deb3">email</a>
+        
+    </div>
+
+    <div class="footer-info">
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <ul>
+                <li>
+                    <span><i class="fas fa-map-marker-alt"></i></span>
+                    <p> Unit 6-7, Broad Mall, Street No.2,LA</p>
+                </li>
+                <li>
+                    <span><i class='far fa-envelope'></i></span>
+                    <a href="#" style="color:#f5deb3 ;"> burger@gmail.com</a>
+                </li>
+                <li>
+                    <span><i class='fas fa-phone-volume'></i></span>
+                    <a href="#" style="color:#f5deb3 ;"> 111 111 1111</i></a>
+                </li>
+            </ul>
+
+        </div>
+    
+    
+        <div class="link">
+            <h2>Social Media</h2>
+            <ul>
+                <li><a href="#" style="color:#f5deb3"><i class='fab fa-facebook' style="color:#f5deb3 ; size:15px;"></i>@burgerfacebook</a>
+                    </li>
+                <li><a href="#" style="color:#f5deb3">
+                    <i class='fab fa-instagram' style="color:#f5deb3 ;"></i>@burgerinsta</a></li>
+                <li><a href="#" style="color:#f5deb3"><i class='fab fa-twitter' style="color:#f5deb3 ;"></i>@burgertwitter</a>
+                    </li>
+            </ul>
+
+        </div>
+
+
+    </div>
+   
+    <div class="footer-bottom" style="color:#f5deb3">
+        <p>copyright &copy;2020 codeOpacity.</p>
+    </div>
+    
+
+        
+    
+        
+    
+    </section>
+</footer>
+</body>
+</html>
